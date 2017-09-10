@@ -11,7 +11,7 @@ public class Level3CodingExam {
 	 * PART A
 	 * 
 	 * There are two people competing in a gold mining contest. The weight of each gold nugget found by each competitor is stored in a separate ArrayList.
-	 * Write the method to calculate who found the most gold.
+	 * Write that takes in two ArrayLists of Doubles and returns the ArrayList with the highest total of Doubles.
 	 * **/
 	@Test
 	public void testWinner() {
@@ -30,7 +30,7 @@ public class Level3CodingExam {
 		ButchCassidaysNuggets.add(6.36);
 		ButchCassidaysNuggets.add(0.84);
 
-		assertEquals("pope francis", new ContestCalculator().calculateWinner(WyateErpsNuggets, ButchCassidaysNuggets));
+		assertEquals(WyateErpsNuggets, new ContestCalculator().calculateWinner(WyateErpsNuggets, ButchCassidaysNuggets));
 	}
 
 
