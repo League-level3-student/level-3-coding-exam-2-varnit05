@@ -11,7 +11,7 @@ public class Level3CodingExam {
 	 * PART A
 	 * 
 	 * There are two people competing in a gold mining contest. The weight of each gold nugget found by each competitor is stored in a separate ArrayList.
-	 * Write that takes in two ArrayLists of Doubles and returns the ArrayList with the highest total of Doubles.
+	 * Write a methods that takes in two ArrayLists of Doubles and returns the ArrayList with the highest total of Doubles.
 	 * **/
 	@Test
 	public void testWinner() {
